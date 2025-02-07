@@ -12,6 +12,7 @@ body {
     padding: 10px 20px;
     font-size: 20px;
 }
+
 .logo {
     padding: 5px 15px;
     margin-right: 50px;
@@ -34,15 +35,19 @@ h3 {
     letter-spacing: 0.01em;
 }
 
+
 ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    gap: 30px;
 }
-ul > li {
-    margin-right: 30px;
+
+ul > li:last-child {
+    margin-right: 0;
 }
+
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -60,14 +65,26 @@ section {
     margin-bottom: 20px;
 }
 
+.results {
+    display: flex;
+    gap: 10px;
+    text-align: start;
+}
+
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
 .post {
     padding-bottom: 20px;
 }
 
 .footer {
     font-size: 13px;
-}
-
-footer {
     padding: 0 20px;
 }
